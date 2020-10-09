@@ -1,6 +1,6 @@
 package com.afesguerra.pictionary.server.control;
 
-import com.afesguerra.pictionary.server.modelo.Palabrero;
+import com.afesguerra.pictionary.server.modelo.WordGenerator;
 import com.afesguerra.pictionary.server.vista.Ventana;
 
 import java.awt.event.WindowAdapter;
@@ -16,7 +16,7 @@ import java.net.SocketException;
  * @author Luis Eduardo Naranjo Contreras
  */
 public class Ejecutable {
-    static Palabrero palabras = new Palabrero(); // Objeto palabrero con la
+    static WordGenerator palabras = new WordGenerator(); // Objeto palabrero con la
     // lista de palabras
 
     /**
@@ -57,7 +57,7 @@ public class Ejecutable {
                         i--;
                     }
                 }
-                new Hilo(pck, palabras.obtenerPalabra()).start();
+                new Hilo(pck, palabras.getWord()).start();
             }
         } catch (SocketException e) {
 //			System.exit(0);
