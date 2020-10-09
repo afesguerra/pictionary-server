@@ -1,7 +1,7 @@
-package servidor.control;
+package com.afesguerra.pictionary.server.control;
 
-import servidor.modelo.Palabrero;
-import servidor.vista.Ventana;
+import com.afesguerra.pictionary.server.modelo.Palabrero;
+import com.afesguerra.pictionary.server.vista.Ventana;
 
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;

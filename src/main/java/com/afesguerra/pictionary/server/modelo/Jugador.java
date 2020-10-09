@@ -1,4 +1,4 @@
-package servidor.modelo;
+package com.afesguerra.pictionary.server.modelo;
 
 import java.net.DatagramPacket;
 import java.net.InetAddress;

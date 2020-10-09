@@ -1,4 +1,4 @@
-package servidor.vista;
+package com.afesguerra.pictionary.server.vista;
 
 import javax.swing.*;
 

@@ -1,4 +1,4 @@
-package servidor.modelo;
+package com.afesguerra.pictionary.server.modelo;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;

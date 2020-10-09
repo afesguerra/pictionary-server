@@ -1,6 +1,6 @@
-package servidor.control;
+package com.afesguerra.pictionary.server.control;
 
-import servidor.modelo.Jugador;
+import com.afesguerra.pictionary.server.modelo.Jugador;
 
 import java.io.IOException;
 import java.net.DatagramPacket;
